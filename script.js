@@ -1,6 +1,6 @@
 function highlight() {
     //Write your code here
-	cont boldElement = document.querySelectorAll("strong");
+	const boldElements = document.querySelectorAll("strong");
 	boldElement.forEach(element =>{
 		element.style.color ="rgb(0, 128, 0)";
 	});
@@ -10,7 +10,7 @@ function highlight() {
 
 function return_normal() {
     //Write your code here
-	cont boldElement = document.querySelectorAll("strong");
+	const boldElements = document.querySelectorAll("strong");
 	boldElement.forEach(element =>{
 		element.style.color ="rgb(0, 0, 0)";
 	});
